@@ -17,6 +17,7 @@
         "scenario:execute_metatransaction_fill_rfq_order": "cross-env yarn build && node ./lib/scenarios/execute_metatransaction_fill_rfq_order.js",
         "scenario:cancel_pair_limit_orders": "cross-env yarn build && node ./lib/scenarios/cancel_pair_limit_orders.js",
         "scenario:transform_erc20": "cross-env yarn build && node ./lib/scenarios/transform_erc20.js",
+        "scenario:zeroex":"cross-env yarn build && node ./lib/scenarios/zeroex.js",
         "mint_test_zrx": "cross-env yarn build && node ./lib/util_scripts/mint_test_zrx.js"
     },
     "config": {},
